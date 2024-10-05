@@ -1,0 +1,1157 @@
+:root {
+    --text-color: #f05742;
+}
+body {
+    background-color: black;
+    font-size: 10px;
+    color: white;
+}
+main {
+    margin-left: 4.7rem;
+    margin-right: 5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------ NAVBAR  --------*/
+.navbar {
+    display: grid;
+    grid-template-columns: 25rem 45rem 5rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 7px var(--text-color);
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.nav-icon img{
+    width: 15rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.nav-list li:hover {
+    color: var(--text-color);
+    cursor: pointer;
+}
+.nav-btn p {
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 2.5rem;
+    width: 12rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: .6rem;
+}
+.nav-btn p:hover {
+    color: var(--text-color);
+    cursor: pointer;
+    border-color: var(--text-color);
+}
+/*------------ CONTACT US  --------*/
+.main-contact {
+    display: grid;
+    grid-template-columns: 30rem 50rem;
+    margin-top: 7rem;
+    padding: 0rem 5rem;
+}
+.left-contact {
+    margin-top: 8rem;
+}
+.left-contact h1 {
+    font-size: 3rem;
+    cursor: pointer;
+}
+.left-contact span {
+    color: var(--text-color);
+}
+.left-contact p {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.left-contact h6 {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;  
+    border: 1px solid white;
+    width: 16rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: .8rem;
+    border-radius: 2.5rem;
+}
+.left-contact h6:hover {
+    color: var(--text-color);
+    border-color: var(--text-color);
+    cursor: pointer;
+}
+.right-contact {
+    background-color: rgba(128, 128, 128,.1);
+    margin-right: 12rem;
+    height: 35rem;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gray;
+}
+.right-contact h1{
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.right-contact #name {
+    width: 30rem;
+    height: 3rem;
+    margin: 0rem 4rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color: white;
+}
+.right-contact #country {
+    width: 14rem;
+    height: 3rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color:var(--text-color);
+    margin-top:1rem;
+    margin-left:4rem;
+}
+.right-contact #country option{
+    background-color: black;
+}
+.right-contact #email {
+    width: 14rem;
+    height: 3rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color: white;
+    margin-top:1rem ;
+    margin-left:1.8rem ;
+}
+.right-contact #number {
+    width: 14rem;
+    height: 3rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color:white;
+    margin-top:1rem;
+    margin-left:4rem;
+}
+.right-contact #website {
+    width: 14rem;
+    height: 3rem;
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color: var(--text-color);
+    margin-top:1rem ;
+    margin-left:1.8rem ;
+}
+.right-contact #website option{
+    background-color: black;
+}
+.right-contact textarea {
+    background-color: transparent;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid rgba(128, 128, 128,.4);
+    color: white;
+    margin-top:1rem ;
+    margin-left:3.8rem ;
+}
+.right-contact button {
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    border: hidden;
+    border: 1px solid white;
+    color: white;
+    margin-top:1rem ;
+    margin-left:4rem ;
+    text-align: center;
+}
+.right-contact button:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}   
+/*------------ WEBSITE REDESIGN  --------*/
+.website-design {
+    margin-top: 4rem;
+}
+.website-design h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.website-design span {
+    color: var(--text-color);
+}
+.container-prime {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 26rem 26rem 26rem;
+    /* margin-left: 5rem; */
+}
+.container-1{
+    width: 23rem;
+    max-height: 35rem;
+    background-color: rgba(128, 128, 128,.1);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128,.6);
+}
+.container-1 img {
+    width: 20rem;
+    height: 20rem;
+}
+.container-1 h2 {
+    font-size: 1.9rem;
+}
+.container-1 p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: rgba(128, 128, 128,.7);
+}
+.container-1 h3 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.container-1 h3:hover {
+    color: var(--text-color);
+    cursor: pointer;
+}
+/*------------ BUSINESS  --------*/
+.business {
+    margin-top: 3rem;
+}
+.business h3 {
+    text-align: center;
+}
+.business h3 a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(128, 128, 128,.9);
+}
+.business h3 a:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
+.business-connect {
+    margin-top: 3rem;
+    /* margin-left: 5rem; */
+    width: 75rem;
+    height: 12rem;
+    background-color: rgba(128, 128, 128,.1);
+    display: grid;
+    grid-template-columns: 45rem 12rem;
+    padding: 2rem 8rem;
+    border-radius: 25px;
+    box-shadow: 2px 0px 2px grey;
+}
+.business-content h2{
+    font-size: 2rem;
+}
+.business-content p{
+    font-size: 1.4rem;
+    color: rgba(128, 128, 128,.8);
+}
+.business-btn {
+    margin-top: 2rem;
+}
+.business-btn h3 {
+    font-size: 1.1rem;
+    border: 1px solid  white;
+    width: 14rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: .8rem;
+    border-radius: 25px;
+}
+.business-btn h3:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+/*------------ HUB --------*/
+.hub {
+    text-align: center;
+    max-width:72rem ;
+    margin-top: 3rem;
+}
+.hub h1 {
+    font-size: 2.5rem;
+}
+.hub h1 span {
+    color: var(--text-color);
+}
+.hub p {
+    font-size: 1.9rem;
+    font-weight: bold;
+    line-height: 2.3rem;;
+}
+/*------------ WEB --------*/
+.web-main{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 37rem 40rem;
+}
+.web-main-content {
+    display: grid;
+    grid-template-rows: repeat(5,8rem);
+}
+.web-img img{
+    width: 35rem;
+    height: 35rem;
+}
+.web-angle {
+    border: 1px solid;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+    background-color: var(--text-color);
+    transform: rotate(45deg);
+}
+.web-angle i{
+    font-size: 1.5rem;
+    padding: 1.8rem ;
+    transform: rotate(-45deg);
+}
+.web-content {
+    display: grid;
+    grid-template-columns: 8rem 30rem;
+}
+.web-list-content h3 {
+    font-size: 1.8rem;
+}
+.web-list-content p {
+    font-size: 1.2rem;
+    color: rgba(128, 128, 128,.8);
+    margin-top: .8rem;
+}
+.about-us {
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+.about-us p {
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 15rem;
+    height: 2.7rem;
+    text-align: center;
+    padding-top: .6rem;
+    font-size: 1.2rem;
+}
+.about-us p:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+    cursor: pointer;
+}
+/*------------ CLIENT-REVIEW --------*/
+.client-review {
+    margin-top: 10rem;
+}
+.client-review h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+.client-review span {
+    color: var(--text-color);
+}
+.review-video {
+    margin-top: 2rem;
+}
+.review-video a ,img {
+    width: 22rem;
+    height: 12rem;
+}
+.review-prime-video {
+    margin-left: 3rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(3,23rem) ;
+}
+/*------------REVIEW --------*/
+.reveiw {
+    margin-top: 3rem;
+}
+.reveiw h1{
+    font-size: 2.7rem;
+    text-align: center;
+}
+.reveiw h1 span{
+    color: var(--text-color);
+}
+.review-box-prime {
+    display: grid;
+    grid-template-columns: repeat(3,22rem);
+    margin-left: 5.5rem;
+}
+.review-box {
+    margin-top: 2rem;
+    width: 20rem;
+    max-height: 50rem;
+    background-color: rgba(128, 128, 128,.3);
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px gainsboro;
+}
+.review-box p{
+    font-size: 1.2rem;
+    color: rgba(128, 128, 128,.8);
+    line-height: 1.5rem;
+}
+.review-title {
+    display: grid;
+    grid-template-columns: 4rem 9rem;
+}
+.review-title-img img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.review-title-content h3{
+    margin-top: 1.2rem;
+    font-size: .9rem;
+    color: darkgrey;
+    font-weight: bold;
+}
+.review-title-content span {
+    color: var(--text-color);
+    font-size: .9rem;
+}
+/*-------- CONSULT ---------*/
+.consult {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 65rem;
+    height: 8rem;
+    background-color: rgba(128, 128, 128,.1);
+    display: grid;
+    grid-template-columns: 40rem 12rem;
+    padding: 2rem 8rem;
+    border-radius: 25px;
+    box-shadow: 2px 0px 2px grey;
+}
+.consult-btn {
+    margin-top: .5rem;
+}
+.consult-btn h3 {
+    font-size: 1.1rem;
+    border: 1px solid  white;
+    width: 14rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: .8rem;
+    border-radius: 25px;
+}
+.consult-btn h3:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+/*-------- PACKAGE ---------*/
+.package {
+    margin-top: 3rem;
+}
+.package h1 {
+    font-size: 2.7rem;
+    text-align: center;
+}
+.package span{
+    color: var(--text-color);
+}
+.package-box {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 42rem 20rem;
+}
+.package-item {
+    max-width: 40rem;
+    background-color: rgba(128, 128, 128,.2);
+    border-radius: 15px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+}
+.package-container {
+    margin-top: 1rem;
+}
+.package-container p {
+    font-size: 1.3rem;
+    border: 1px solid gray;
+    max-width:18rem;
+    text-align: center;
+    height: 3rem;
+    padding-top: .8rem;
+    border-radius: 25px;
+    background-color: rgba(128, 128, 128,.3);
+    box-shadow: 0px 2px 5px grey ;
+    color: rgba(128, 128, 128,.9);
+}
+.package-container p:hover{
+    cursor: pointer;
+    color: white;
+    background-color: var(--text-color);
+}
+.package-image img{
+    width: 30rem;
+    height: 30rem;
+}
+/*-------- SERVICES ---------*/
+#service-header {
+    margin-top: 7rem;
+}
+.services {
+    display: grid;
+    grid-template-columns: 35rem 30rem;
+    background-color: rgba(128, 128, 128,.1);
+    border-radius: 15px;
+    height: 32.5rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0px 0px 2px var(--text-color);
+}
+.service-type {
+    width: 35rem;
+    margin-top: 9rem;
+}
+.service-type h1 {
+    font-size: 2.7rem;
+    color: var(--text-color);
+}
+.service-type p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgba(128, 128, 128,.8);
+}
+.service-type span{
+    font-size: 1.4rem;
+    border: 1px solid white;
+    padding: .7rem 1.2rem;
+    border-radius: 25px;
+    position: relative;
+    top: 3rem;
+}
+.service-type span:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+    cursor: pointer;
+}
+.service-image img{
+    width: 30rem;
+    height: 30rem;
+}
+.service-prime-1 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 4;
+    background-color: black;
+}
+.service-prime-2 {
+    position:sticky;
+    top: 5.5rem;
+    z-index: 7;
+    background-color: black;
+}
+.service-prime-3 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 6;
+    background-color: black;
+}
+.service-prime-4 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 7;
+    background-color: black;
+}
+.service-prime-5 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 8;
+    background-color: black;
+}
+.service-prime-6 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 9;
+    background-color: black;
+}
+.service-prime-7 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 10;
+    background-color: black;
+}
+.service-prime-8 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 11;
+    background-color: black;
+}
+.service-prime-9 {
+    position: sticky;
+    top: 5.5rem;
+    z-index: 12;
+    background-color: black;
+}
+/*------------- FOOTER ------------*/
+.footerbar {
+    margin:5rem 4.5rem 0rem 5rem;
+    display: grid;
+    grid-template-columns: 13rem 7rem 12rem 10rem 12rem;
+    column-gap: 6rem;
+}
+.footerbar li{
+    list-style: none;
+}
+.footer-icon img {
+    max-width: 10rem;
+    height: 2rem;
+}
+.footer-icon p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgba(128, 128, 128,.8);
+}
+.footer-icon ul {
+    margin-top: 1.5rem;
+}
+.footer-icon ul li{
+    margin-top: .5rem;
+    display: inline-block;
+    padding: 0rem .3rem;
+}
+.footer-icon ul li i{
+    border: 1px solid gray;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: .5rem;
+    background-color: rgba(128, 128, 128,.8);
+    color: black;
+    font-weight: bold;
+}
+.footer-icon ul li i:hover{
+    color: white;
+    background-color: var(--text-color);
+    cursor: pointer;
+    box-shadow: 0px 0px 5px lawngreen;
+}
+.footer-content {
+
+}
+.footer-content h2{
+    margin-top: .2rem;
+    font-size: 1.5rem;
+}
+.footer-content ul{
+    margin-top: 1.3rem;
+}
+.footer-content li {
+    margin-top: .4rem;
+    font-size: 1.1rem;
+    color: rgba(128, 128, 128,.9);
+}
+.footer-content li:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
+/*-------- footer-bottom ------*/
+.footer-bottom {
+    margin:2rem 4.7rem 1rem 5rem;
+}
+.footer-title{
+    display: grid;
+    grid-template-columns: 25rem 18rem;
+    column-gap: 29rem;
+    padding: 0rem 2rem;
+}
+.footer-bottom h1 {
+    border: 1px solid gray;
+    width: 100%;
+    height: .1rem;
+}
+.bottom-left-content p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgba(128, 128, 128,.9);
+}
+.bottom-right-content p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: rgba(128, 128, 128,.9);
+}
+.bottom-right-content p i{
+    color: var(--text-color);
+}
+@media only screen and (max-width:768px) {
+    main {
+        margin-left: 2.4rem;
+        margin-right: 2.5rem;
+    }
+/*------------ NAVBAR  --------*/
+.navbar {
+    display: grid;
+    grid-template-columns: 10rem 27rem 5rem;
+    padding: .8rem;
+}
+.nav-icon img{
+    width: 8rem;
+    height: 1.5rem;
+}
+.nav-list li {
+    padding: .4rem;
+    font-size: 1rem;
+}
+.nav-btn p {
+    font-size: 1rem;
+    width: 8rem;
+    height: 2rem;
+    padding-top: .4rem;
+}
+/*------------ CONTACT US----------*/
+.main-contact {
+    display: grid;
+    grid-template-columns: 50rem;
+    margin-top: -3rem;
+}
+.left-contact {
+    width: 25rem;
+    margin-left:  6rem;
+    margin-right: 6rem;
+}
+.left-contact h1 {
+    font-size: 2rem;
+}
+.left-contact p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.left-contact h6 {
+    margin-top: 1.5rem;
+    font-size: 1rem;  
+    width: 12rem;
+    height: 2.2rem;
+    text-align: center;
+    padding-top: .5rem;
+}
+.right-contact {
+    margin-top: 2rem;
+    height: 30rem;
+    width: 32rem;
+}
+.right-contact h1{
+    font-size: 1.6rem;
+}
+.right-contact #name {
+    width: 25rem;
+    height:2.5rem;
+    font-size: 1rem;
+}
+.right-contact #country {
+    width: 12rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.right-contact #email {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-left:.8rem ;
+}
+.right-contact #number {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+}
+.right-contact #website {
+    width: 12rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-left:.8rem ;
+}
+.right-contact textarea {
+    width: 25rem;
+    border-radius: 20px;
+}
+.right-contact button {
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+.right-contact button:hover{
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+/*------------ WEBSITE REDESIGN  --------*/
+
+.container-prime {
+    row-gap: 2rem;
+    column-gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.container-1{
+    width: 20rem;
+    max-height: 30rem;
+}
+.container-1 img {
+    width: 16rem;
+    height: 16rem;
+}
+.container-1 h2 {
+    font-size: 1.5rem;
+}
+.container-1 p {
+    font-size: 1rem;
+}
+.container-1 h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+/*-------- BUSNIESS -------*/
+.business-connect {
+    margin-top: 3rem;
+    width: 41.5rem;
+    height: 9rem;
+    background-color: rgba(128, 128, 128,.1);
+    display: grid;
+    grid-template-columns: 27.5rem 12rem;
+    padding: 1.6rem 1.5rem;
+}
+.business-content h2{
+    font-size: 1.3rem;
+}
+.business-content p{
+    margin-top: .5rem;
+    font-size: .8rem;
+}
+.business-btn {
+    margin-top: 2rem;
+}
+.business-btn h3 {
+    font-size: .9rem;
+    width: 11rem;
+    height: 2.3rem;
+    padding-top: .7rem;
+}
+/*------------ HUB --------*/
+.hub h1 {
+    font-size: 2rem;
+}
+.hub p {
+    font-size: 1.4rem;
+    line-height: 2rem;;
+}
+/*------------ WEB --------*/
+.web-main{
+    display: grid;
+    grid-template-columns: 17rem 40rem;
+}
+.web-main-content {
+    display: grid;
+    grid-template-rows: repeat(5,6rem);
+}
+.web-img img{
+    margin-top: 5rem;
+    width: 16rem;
+    height: 17rem;
+}
+.web-angle {
+    width: 3rem;
+    height: 3rem;
+}
+.web-angle i{
+    font-size: 1.1rem;
+    padding: 1.1rem ;
+}
+.web-content {
+    display: grid;
+    grid-template-columns: 5rem 20rem;
+}
+.web-list-content h3 {
+    font-size: 1.4rem;
+}
+.web-list-content p {
+    font-size: .9rem;
+    margin-top: .8rem;
+}
+.about-us {
+    margin-top: 2.5rem;
+    margin-left: 5rem;
+}
+.about-us p {
+    width: 12rem;
+    height: 2.5rem;
+    padding-top: .7rem;
+    font-size: .9rem;
+}
+/*------------ CLIENT-REVIEW --------*/
+.client-review {
+    margin-top: 7rem;
+}
+.client-review h1 {
+    font-size: 1.8rem;
+}
+.review-video a ,img {
+    width: 13rem;
+    height: 7rem;
+}
+.review-prime-video {
+    margin-left: 0rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(3,14rem) ;
+}
+/*------------REVIEW --------*/
+.reveiw {
+    margin-top: 2rem;
+}
+.reveiw h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.review-box-prime {
+    margin-left: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.review-box {
+    margin-top: 2rem;
+    width: 18rem;
+}
+.review-box p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+/*-------- CONSULT ---------*/
+.consult {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    width: 37rem;
+    height: 6rem;
+    display: grid;
+    grid-template-columns: 23rem 12rem;
+    padding: 1.5rem 1.5rem;
+}
+.consult-btn {
+    margin-top: .5rem;
+}
+.consult-btn h3 {
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.2rem;
+    padding-top: .5rem;
+}
+/*-------- PACKAGE ---------*/
+.package {
+    margin-top: 2rem;
+}
+.package h1{
+    font-size: 2rem;
+}
+.package-box {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 42rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*-------- SERVICES ---------*/
+#service-header {
+    margin-top: 2rem;
+}
+.services {
+    display: grid;
+    grid-template-columns: 19rem 19rem;
+}
+.service-type {
+    width: 35rem;
+    margin-top: 9rem;
+}
+.service-type h1 {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    max-width: 20rem;
+}
+.service-type p {
+    margin-top: 1rem;
+    font-size: .8rem;
+    max-width: 18rem;
+}
+.service-type span{
+    font-size: 1.1rem;
+}
+.service-image img{
+    width: 18rem;
+    height: 18rem;
+    margin-top: 4rem;
+}
+.service-prime-1 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 4;
+    background-color: black;
+}
+.service-prime-2 {
+    position:sticky;
+    top: 3.9rem;
+    z-index: 7;
+    background-color: black;
+}
+.service-prime-3 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 6;
+    background-color: black;
+}
+.service-prime-4 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 7;
+    background-color: black;
+}
+.service-prime-5 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 8;
+    background-color: black;
+}
+.service-prime-6 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 9;
+    background-color: black;
+}
+.service-prime-7 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 10;
+    background-color: black;
+}
+.service-prime-8 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 11;
+    background-color: black;
+}
+.service-prime-9 {
+    position: sticky;
+    top: 3.9rem;
+    z-index: 12;
+    background-color: black;
+}
+/*------------- FOOTER ------------*/
+.footerbar {
+    margin:5rem 1rem 0rem 1rem;
+    display: grid;
+    grid-template-columns: 12rem 5rem 8rem 7rem 12rem;
+    column-gap: 1.3rem;
+}
+.footer-icon img {
+    max-width: 7rem;
+    height: 1.4rem;
+}
+.footer-icon p{
+    margin-top: .6rem;
+    font-size: .9rem;
+    color: rgba(128, 128, 128,.8);
+}
+.footer-icon ul {
+    margin-top: 1rem;
+}
+.footer-icon ul li{
+    margin-top: .5rem;
+    display: inline-block;
+    padding: 0rem .4rem;
+}
+.footer-icon ul li i{
+    border: 1px solid gray;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: .7rem;
+    padding: .4rem;
+    background-color: rgba(128, 128, 128,.8);
+    color: black;
+    font-weight: bold;
+}
+.footer-content h2{
+    margin-top: .1rem;
+    font-size: 1rem;
+}
+.footer-content ul{
+    margin-top: .8rem;
+}
+.footer-content li {
+    margin-top: .4rem;
+    font-size: .8rem;
+    color: rgba(128, 128, 128,.9);
+}
+/*-------- footer-bottom ------*/
+.footer-bottom {
+    margin:2rem 0rem 1rem 0rem;
+}
+.footer-title{
+    display: grid;
+    grid-template-columns: 20rem 18rem;
+    column-gap: 13rem;
+    padding: 0rem 1rem;
+}
+.footer-bottom h1 {
+    border: 1px solid gray;
+    width: 100%;
+    height: .1rem;
+}
+.bottom-left-content p{
+    margin-top: .7rem;
+    font-size: .9rem;
+    color: rgba(128, 128, 128,.9);
+}
+.bottom-right-content p{
+    margin-top: .7rem;
+    font-size: .9rem;
+    color: rgba(128, 128, 128,.9);
+}
+}
